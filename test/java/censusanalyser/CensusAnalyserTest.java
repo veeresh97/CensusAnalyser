@@ -6,7 +6,7 @@ import org.junit.Test;
 public class CensusAnalyserTest {
 
     private static final String INDIA_CENSUS_CSV_FILE_PATH = "./src/test/resources/IndiaStateCensusData.csv";
-
+    //checking the number of entries
     @Test
     public void givenIndianCensusCSVFileReturnsCorrectRecords() {
         try {
